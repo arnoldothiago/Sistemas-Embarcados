@@ -60,6 +60,7 @@ cat “arquivo”
 
 (n) Apresentar o tipo de um arquivo.
 ls --file-type
+ls -l
 
 (o) Limpar a tela do terminal.
 clear
