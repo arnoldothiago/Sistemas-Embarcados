@@ -1,0 +1,10 @@
+prog: Num_Caracs.o ola_num_caracs_1.o
+	gcc $(CFLAGS) -o prog Num_Caracs.o ola_num_caracs_1.o
+Num_Caracs.o: Num_Caracs.c Num_Caracs.h
+	gcc $(CFLAGSS) -c -Wextra -Wall -ansi Num_Caracs.c
+ola_num_caracs_1.o: ola_num_caracs_1.c Num_Caracs.h
+	gcc $(CFLAGSS) -c -Wextra -Wall -ansi ola_num_caracs_1.c
+clean:
+	rm -f -r *.o prog
+
+
