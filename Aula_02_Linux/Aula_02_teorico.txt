@@ -1,0 +1,80 @@
+1. Por que o Linux recebeu esse nome?
+R – Em homenagem ao seu criador Linus Torvalds em 1990. Assim a palavra Linux é a junção de Linus+Unix.
+
+2. O que são daemons?
+R - São controladores, que iniciam, reiniciam, param entre outras funções, um serviço provido pelo sistema
+
+3. O que é o shell?
+R - É um programa que permite o usuário interagir com o Sistema Operacional utilizando linhas de comando por meio do terminal.
+
+4. Por que é importante evitar executar o terminal como super-usuário?
+R - Ao se utilizar o root do sistema o usuário adquire algumas permissões que o possibilita modificar o sistema e em alguns casos modificando algo que torna o SO não operacional
+
+5. Qual botão do teclado completa o que o usuário escreve no terminal, de acordo com o contexto?
+TAB
+
+6. Quais botões do teclado apresentam instruções escritas anteriormente?
+A seta para cima (Up)
+
+7. Apresente os respectivos comandos no terminal para:
+(a) Obter mais informações sobre um comando.
+man “comando”
+
+(b) Apresentar uma lista com os arquivos dentro de uma pasta.
+Ls
+
+(c) Apresentar o caminho completo da pasta.
+Pwd
+
+(d) Trocar de pasta.
+cd “pasta”
+cd (Para voltar para a Home)
+cd .. (Para subir um nível da pasta atual)
+
+(e) Criar uma pasta.
+mkdir “nome da pasta”
+
+(f) Apagar arquivos definitivamente.
+rm -r -f
+
+(g) Apagar pastas definitivamente.
+rmdir 
+
+(h) Copiar arquivos.
+cp -atributos origem destino
+
+(i) Copiar pastas.
+cp -atributos origem destino
+
+(j) Mover arquivos.
+mv origem destino
+
+(k) Mover pastas.
+mv origem destino
+
+(l) Renomear pastas.
+rename ou mv
+
+(m) Apresentar o conteúdo de um arquivo.
+cat “arquivo”
+
+(n) Apresentar o tipo de um arquivo.
+ls *”Tipo do arquivo”
+
+(o) Limpar a tela do terminal.
+clear
+
+(p) Encontrar ocorrências de palavras-chave em um arquivo-texto.
+grep
+
+(q) Ordenar informações em um arquivo-texto.
+sort
+
+(r) Substituir ocorrências de palavras-chave em um arquivo-texto.
+sed
+
+(s) Conferir se dois arquivos são iguais.
+cmp ou diff
+
+(t) Escrever algo na tela.
+cat

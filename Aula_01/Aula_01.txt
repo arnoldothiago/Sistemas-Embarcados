@@ -1,0 +1,25 @@
+1. O que são sistemas embarcados?
+R – Sistemas embarcados são sistemas microprocessados onde a parte elétrica pode ou não trabalhar em conjunto com uma parte mecânica para realizar alguma função especifica. Tais sistemas embarcados realizam um conjunto de tarefas e procedimentos específicos com requisitos específicos. Geralmente, tais sistemas, compôem um sistema maior ou de um produto final.
+
+2. O que são sistemas microprocesssados?
+R – São sistemas onde todo o conjunto de compontentes são encapsulados e dedicados ao dispositivos que controlam por meio de um conjunto de funções pré-definidas, diferente dos computadores de propósito geral, como computadores pessoais. Os sistemas microprocessados possuem restrições de memórias, em função do espaço que possuem; restrições de respostas em tempo real; confiabilidade do sistema; preço e custo energético.
+
+3. Apresente aplicações de sistemas embarcados:
+(a) Para a indústria automotiva;
+R – Sistemas embarcados são de grande importância para o bom funcionamento de um automovel. Isto  ocorre em função de que um automovel possui centenas de microprocessadores para controlar as diversas funções do carro, como vridros elétricos, freios, partida e etc, cada um com um conjunto de funções para realizar alguns procedimentos.
+
+(b) Para eletrodomésticos;
+R – Para controlar motores de passo como em liquidificadores ou a temperatura para que um arcondicionado consida estabilizar na temperatura requerida pelo usuário.
+
+(c) Para automação industrial.
+R – Sistemas de controle realimentados de linha de produção ou de teste de qualidade automatizados onde é necessario verificar alguma caracteristica e a partir do resultado tomar alguma atitude, como um sensor para verificar a continuidade de placas de circuitos onde o controlador decide se o produto passa para a fase final ou volta para a linha de montagem. 
+
+4. Cite arquiteturas possíveis e as diferenças entre elas.
+R – Microcontroladores: Possuem comando simples com linguagens de programação de baixo nível, o que aproxima o desenvolvedor da arquitetura única de cada microprocessador como o PIC, AVR ou o MSP.
+Processadores de Propósito Geral: São conputadores pessoal mais comuns, que podem ser utilizados para realizar diversas funções desde edição de imagens à navegação web.
+DSP: São processadores projetados a nível de hardware para realizar funções matemáticas de uma maneira extremamente rápidas e com uma precisão boa. Neste tipo de arquitetura há operações como multiplicação e rotação de matrizes já pré-definidas em hardware. 
+FPGA: São sistemas onde é possível descrever hardware utilizando a linguagem de descrição VHDL ou Verilog, muito utilizado dentre os projetistas de sistemas digitais para criar hardwares com funções específias utilizando um baixo consumo de potência e realizando as operações em poucos ciclos de clock.
+SoC: São sistemas em chip que reúnem o melhor dentre dois mundos: Microprocessadores e hardware, ambos encapsulados juntos. Onde o microprocessador realiza o controle do hardware e algumas operações e o sistema em hardware realiza as operações mais dificeis e demoradas de uma maneira otimizada tanto no quesito enegético como em tempo de processamento. 
+
+5. Por que usamos o Raspberry Pi na disciplina, ao invés de outro system-on-chip?
+R – Por ser um Kit de desenvolvimento que aglomera um computador de proposito geral (GPP) e uma unidade de processamento gráfica (GPU), além de permitir a utilização de sistemas linux como sistema operacional, possuie uma grande quantidade de GPIO e possuir um baixo preço dentre os concorrentes.
